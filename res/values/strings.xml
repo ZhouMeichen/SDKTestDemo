@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SDKDemo</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_section1">Workbench</string>
+    <string name="title_section2">Result</string>
+    <string name="title_section3">Log</string>
+    
+    <string name="initbutton">Init</string>
+    <string name="recordbutton">Record</string>
+    <string name="replaybutton">Replay</string>
+    <string name="deletebutton">Delete</string>
+    
+    <string name="sourcetextview">Source:</string>
+    <string name="coretypetextview">CoreType:</string>
+    <string name="ranktextview">Rank:</string>
+    <string name="reftextview">refText:</string>
+    <string name="useridtextview">UserId:</string>
+    <string name="cloudservertextview">CloudServer:</string>
+    <string name="realtimetextview">RealTime:</string>
+    <string name="restextview">Res:</string>
+    <string name="precisiontextview">Precision:</string>
+    
+    <string name="realtimeoff">OFF</string>
+    <string name="realtimeon">ON</string>
+    
+    <string name="rankedittext">100</string>   
+    <string name="precisionedittext">0.5</string> 
+    <string name="useridedittext">meichen.zhou@chivox.com</string>
+
+    
+    <string name="decibeltext">Decibel:</string>
+    
+    <string name="ref">RefText:</string>
+    <string name="abstractresult">Abstract:</string>
+    <string name="detailresult">Detail:</string>
+    <string name="urlresult">AudioUrl:</string>
+    
+    <string name="enSentScore">Our Chinese teacher, Mrs. Wang, is great fun.</string>
+    <string name="enSentChild">I want to know the past and present of HongKong.</string>
+    <string name="enWordScore">present</string>
+    <string name="enWordChild">present</string>
+    <string name="enSentRec">past|pet|paste|pass</string>
+    <string name="enSyn">I want to know the past and present of Hongkong.</string>
+    <string name="cnSentScore">ni3-yao4-qu4-gan4-ma2</string>
+    <string name="cnWordScore">ni3-hao3</string>
+    <string name="cnSentRec">wo3 men2 | na4 li3</string>
+    <string name="cnSentSyn">今天天气不错</string>
+    <string name="cnWordSyn">你好</string>    
+    <!-- <string name="enPredExam">One, two, three. Look! A green tree. Four, five, six. Count the sticks!</string> -->
+    <string name="enPredExam">Last summer, I went to London, the capital of Britain. It is a beautiful city. Most people speak English and take the underground to work.</string>
+    <!-- <string name="enPredExam">It is my birthday tomorrow, so I will have a birthday party at home. My parents will help me get ready for the party.</string>-->
+    <string name="enPflwExam">It is my birthday tomorrow, so I will have a birthday party at home. My parents will help me get ready for the party.</string>
+    <string name="enSrtlExam">We hope to see you there.</string>
+    <string name="enSredExam">We hope to see you there.</string>
+    
+    
+    <string-array name="cloudserver">
+        <item>ws://cloud.chivox.com:8080</item>
+        <item>ws://gray.cloud.chivox.com:8090</item>
+        <item>ws://10.0.200.166:8090</item>
+    </string-array>
+    
+    <string-array name="cloudprovision">                  
+        <item name="server">ws://cloud.chivox.com:8080</item>
+        <item name="appKey">14255202120000cf</item>
+        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="server">ws://gray.cloud.chivox.com:8090</item>
+        <item name="appKey">14255202120000cf</item>
+        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="server">ws://10.0.200.166:8090</item>
+        <item name="appKey">1455438903000005</item>
+        <item name="secretKey">7d2396dc72426457184fc2eba2b0fdf9</item>
+    </string-array>
+    
+    <string-array name="nativeprovision">
+        <item name="server">native</item>
+        <item name="appKey">14255202120000cf</item>
+        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+    </string-array>
+       
+    <string-array name="nativesimpprovision">
+        <item name="server">native_simp</item>
+        <item name="appKey">14255202120000cf</item>
+        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+    </string-array>
+    
+    
+    <string-array name="source">
+        <item>cloud</item> 
+        <item>native</item>
+        <item>native-simp</item>          
+    </string-array>  
+	
+    
+	<!-- 1. cloud core types & res -->
+	<string-array name="cloud_coretype">
+        <item>en.sent.score</item>
+		<item>en.word.score</item>
+		<item>en.sent.child</item>
+		<item>en.word.child</item>
+        <item>en.pred.exam</item>
+    </string-array>
+	
+    <string-array name="cloud_en_sent_score">
+        <item></item>
+        <item>strap</item>
+        <item>eng.snt.G4</item>
+        <item>eng.snt.g4.17zy</item>
+        <item>eng.snt.G2</item>
+        <item>eng.snt.G4.A2</item>         
+    </string-array>
+    
+    <string-array name="cloud_en_word_score">
+        <item></item>
+        <item>strap</item>
+        <item>eng.wrd.g4</item>
+        <item>eng.wrd.g4.17zy</item>
+        <item>eng.wrd.G4.A2</item>
+        <item>eng.wrd.G2</item>
+    </string-array>
+
+    <string-array name="cloud_en_sent_child">
+        <item></item>
+        <item>eng.snt.g4.17zy</item>
+        <item>eng.snt.g4</item>
+    </string-array>
+    
+    <string-array name="cloud_en_word_child">
+        <item></item>
+        <item>eng.wrd.g4.17zy</item>
+        <item>eng.wrd.g4</item>
+    </string-array>
+    
+    <string-array name="cloud_en_pred_exam">
+        <item></item>
+    </string-array>
+    
+    <!-- 2. native core types & res -->
+    <string-array name="native_coretype">
+        <item>en.sent.score</item>
+		<item>en.word.score</item>
+<!-- 		<item>en.sent.rec</item> -->
+		<item>en.pred.exam</item>
+<!--		<item>cn.sent.score</item>
+		<item>cn.word.score</item>
+		<item>cn.sent.rec</item>  -->		
+    </string-array>
+    
+    <string-array name="native_en_sent_score">
+       <!-- <item>eng.snt.g4.mb.0.3</item>
+		<item>eng.snt.g4.offline.0.2</item>
+		 <item>eng.snt.g4.P2.0.4</item>
+		<item>eng.snt.g4.P2.0.5</item>
+		<item>eng.snt.g4.P2.0.6</item>
+		<item>eng.snt.g4.P3.0.4</item> -->
+		<item>eng.snt.g4.P3.0.5</item>
+		<item>eng.snt.g4.P3.0.6</item>
+		<!--<item>eng.snt.robust.splp.offline.0.9</item>   
+		<item>eng.snt.splp.offline.0.12</item>
+		<item>eng.snt.strap.offline.0.9</item> -->
+    </string-array>
+
+    <string-array name="native_en_word_score">
+        <item>eng.wrd.g4.P3.0.4</item>
+       <item>eng.wrd.g4.mb.0.3</item>
+        <!-- <item>eng.wrd.g4.offline.0.2</item>
+        <item>eng.wrd.splp.offline.1.8</item>
+        <item>eng.wrd.strap.offline.1.7</item>-->
+    </string-array>
+    
+    <string-array name="native_cn_sent_score">
+        <item>chn.snt.splp.offline.0.2</item>
+    </string-array>
+    
+     <string-array name="native_cn_word_score">
+        <item>chn.wrd.gnr.splp.offline.0.4</item>
+    </string-array>
+    
+    <string-array name="native_en_sent_rec">
+        <item>eng.rec.g4.mb.0.5</item>
+		<item>eng.rec.g4.offline.0.4</item>
+		<!--  <item>eng.rec.g4.P2.0.6</item>-->
+		<item>eng.rec.splp.offline.0.3</item>
+    </string-array>
+    
+    <string-array name="native_cn_sent_rec">
+        <item>chn.rec.splp.offline.0.3</item>
+    </string-array>
+    
+    <string-array name="native_en_pred_exam">
+        <item>eng.pred.aux.P3.V4.11</item>
+    </string-array>
+    
+    <!-- 3. simp native coretypes & res-->
+    <string-array name="nativesimp_coretype">
+        <item>en.sent.score</item>
+		<item>en.word.score</item>
+        <item>cn.sent.score</item>  
+        <item>cn.word.score</item>
+    </string-array>
+    
+    <string-array name="nativesimp_en_sent_score">
+		<item>eng.snt.plp.simp.mb.0.1</item>
+    </string-array>
+    
+    <string-array name="nativesimp_en_word_score">
+        <item>eng.wrd.plp.simp.mb.0.1</item>
+    </string-array>
+    
+    <string-array name="nativesimp_cn_sent_score">
+        <item>chn.snt.plp.simp.mb.0.1</item>
+    </string-array>
+    
+    <string-array name="nativesimp_cn_word_score">
+        <item>chn.wrd.plp.simp.mb.0.1</item>
+    </string-array>
+    
+</resources>
