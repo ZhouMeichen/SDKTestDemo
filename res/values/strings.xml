@@ -28,7 +28,7 @@
     
     <string name="rankedittext">100</string>   
     <string name="precisionedittext">0.5</string> 
-    <string name="useridedittext">meichen.zhou@chivox.com</string>
+    <string name="useridedittext">xxx</string>
 
     
     <string name="decibeltext">Decibel:</string>
@@ -65,26 +65,26 @@
     
     <string-array name="cloudprovision">                  
         <item name="server">ws://cloud.chivox.com:8080</item>
-        <item name="appKey">14255202120000cf</item>
-        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="appKey">xxxxxxxxxxxx</item>
+        <item name="secretKey">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</item>
         <item name="server">ws://gray.cloud.chivox.com:8090</item>
-        <item name="appKey">14255202120000cf</item>
-        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="appKey">xxxxxxxxxxxx</item>
+        <item name="secretKey">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</item>
         <item name="server">ws://10.0.200.166:8090</item>
-        <item name="appKey">1455438903000005</item>
-        <item name="secretKey">7d2396dc72426457184fc2eba2b0fdf9</item>
+        <item name="appKey">xxxxxxxxxxxx</item>
+        <item name="secretKey">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</item>
     </string-array>
     
     <string-array name="nativeprovision">
         <item name="server">native</item>
-        <item name="appKey">14255202120000cf</item>
-        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="appKey">xxxxxxxxxxxx</item>
+        <item name="secretKey">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</item>
     </string-array>
        
     <string-array name="nativesimpprovision">
         <item name="server">native_simp</item>
-        <item name="appKey">14255202120000cf</item>
-        <item name="secretKey">988aaf63008b6db30f38bd60be0c3534</item>
+        <item name="appKey">xxxxxxxxxxxx</item>
+        <item name="secretKey">xxxxxxxxxxxxxxxxxxxxxxxxxxxxx</item>
     </string-array>
     
     
